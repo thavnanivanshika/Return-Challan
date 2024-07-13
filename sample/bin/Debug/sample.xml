@@ -1,0 +1,221 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+sample
+</name>
+</assembly>
+<members>
+<member name="T:sample.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources._8a8a5ce1a0df426c40552f88ffeba481">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.abstract_dark_grey_metallic_cyber_pattern_on_black_design_modern_technology_futuristic_background_illustration_vector">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.abstract_white_and_grey_gradient_color_with_oblique_lines_stripes_background_geometric_minimal_pattern_modern_sleek_texture_simple_paper_cut_concept_illustration_vector">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.abstract_white_and_grey_gradient_color_with_oblique_lines_stripes_background_geometric_minimal_pattern_modern_sleek_texture_simple_paper_cut_concept_illustration_vector1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.apply_illustration_1_01">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.download">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.download__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.download__2_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.download__2_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.download__2_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.download__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.download__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.download__4_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.download1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.ezgif_1_f559761275">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.HD_wallpaper_aesthetic_beige_in_2021_abstract_design_iphone_themes_iphone_boho_iphone_pattern_abstract_design_cute_beige_thumbnail">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.HD_wallpaper_aesthetic_beige_in_2021_abstract_design_iphone_themes_iphone_boho_iphone_pattern_abstract_design_cute_beige_thumbnail1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.image_processing20210614_15484_1xntfvb__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.images__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.images__1_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.images__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.images__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.images__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.images__4_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.images__5_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.images__6_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.images__7_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.InShot_20240614_122708056">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.InShot_20240614_1227080561">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.InShot_20240614_135551453">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.InShot_20240614_1355514531">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.InShot_20240614_140934474">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.InShot_20240614_1409344741">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.InShot_20240614_1409344742">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.istockphoto_1217175730_612x612">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.istockphoto_1217175730_612x6121">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.pngtree_exit_icon_isolated_of_flat_style_png_image_6514744">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sample.My.Resources.Resources.Time_management_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

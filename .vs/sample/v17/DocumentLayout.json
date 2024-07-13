@@ -1,0 +1,250 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\edp\\source\\repos\\sample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|c:\\users\\edp\\source\\repos\\sample\\sample\\summary1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|solutionrelative:sample\\summary1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|C:\\Users\\edp\\source\\repos\\sample\\sample\\update.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|solutionrelative:sample\\update.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|C:\\Users\\edp\\source\\repos\\sample\\sample\\summary.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|solutionrelative:sample\\summary.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|C:\\Users\\edp\\source\\repos\\sample\\sample\\status.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|solutionrelative:sample\\status.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|C:\\Users\\edp\\source\\repos\\sample\\sample\\post.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|solutionrelative:sample\\post.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|C:\\Users\\edp\\source\\repos\\sample\\sample\\pending.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|solutionrelative:sample\\pending.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|C:\\Users\\edp\\source\\repos\\sample\\sample\\party.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|solutionrelative:sample\\party.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|C:\\Users\\edp\\source\\repos\\sample\\sample\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|solutionrelative:sample\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|C:\\Users\\edp\\source\\repos\\sample\\sample\\liable.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|solutionrelative:sample\\liable.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|C:\\Users\\edp\\source\\repos\\sample\\sample\\generate.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|solutionrelative:sample\\generate.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|C:\\Users\\edp\\source\\repos\\sample\\sample\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|solutionrelative:sample\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|C:\\Users\\edp\\source\\repos\\sample\\sample\\del.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|solutionrelative:sample\\del.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|C:\\Users\\edp\\source\\repos\\sample\\sample\\adminhome.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|solutionrelative:sample\\adminhome.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|C:\\Users\\edp\\source\\repos\\sample\\sample\\addup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|solutionrelative:sample\\addup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|C:\\Users\\edp\\source\\repos\\sample\\sample\\add.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}|sample\\sample.vbproj|solutionrelative:sample\\add.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UPDATE.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\edp\\source\\repos\\sample\\sample\\UPDATE.vb",
+              "RelativeDocumentMoniker": "sample\\UPDATE.vb",
+              "ToolTip": "C:\\Users\\edp\\source\\repos\\sample\\sample\\UPDATE.vb [Design]",
+              "RelativeToolTip": "sample\\UPDATE.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-08T09:51:26.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SUMMARY1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\edp\\source\\repos\\sample\\sample\\SUMMARY1.vb",
+              "RelativeDocumentMoniker": "sample\\SUMMARY1.vb",
+              "ToolTip": "C:\\Users\\edp\\source\\repos\\sample\\sample\\SUMMARY1.vb [Design]",
+              "RelativeToolTip": "sample\\SUMMARY1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-08T09:51:14.269Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "summary.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\edp\\source\\repos\\sample\\sample\\summary.vb",
+              "RelativeDocumentMoniker": "sample\\summary.vb",
+              "ToolTip": "C:\\Users\\edp\\source\\repos\\sample\\sample\\summary.vb [Design]",
+              "RelativeToolTip": "sample\\summary.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-08T09:51:02.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "STATUS.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\edp\\source\\repos\\sample\\sample\\STATUS.vb",
+              "RelativeDocumentMoniker": "sample\\STATUS.vb",
+              "ToolTip": "C:\\Users\\edp\\source\\repos\\sample\\sample\\STATUS.vb [Design]",
+              "RelativeToolTip": "sample\\STATUS.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-08T09:50:34.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "POST.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\edp\\source\\repos\\sample\\sample\\POST.vb",
+              "RelativeDocumentMoniker": "sample\\POST.vb",
+              "ToolTip": "C:\\Users\\edp\\source\\repos\\sample\\sample\\POST.vb [Design]",
+              "RelativeToolTip": "sample\\POST.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-08T09:50:25.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PENDING.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\edp\\source\\repos\\sample\\sample\\PENDING.vb",
+              "RelativeDocumentMoniker": "sample\\PENDING.vb",
+              "ToolTip": "C:\\Users\\edp\\source\\repos\\sample\\sample\\PENDING.vb [Design]",
+              "RelativeToolTip": "sample\\PENDING.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-08T09:50:16.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PARTY.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\edp\\source\\repos\\sample\\sample\\PARTY.vb",
+              "RelativeDocumentMoniker": "sample\\PARTY.vb",
+              "ToolTip": "C:\\Users\\edp\\source\\repos\\sample\\sample\\PARTY.vb [Design]",
+              "RelativeToolTip": "sample\\PARTY.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-08T09:49:55.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LOGIN.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\edp\\source\\repos\\sample\\sample\\LOGIN.vb",
+              "RelativeDocumentMoniker": "sample\\LOGIN.vb",
+              "ToolTip": "C:\\Users\\edp\\source\\repos\\sample\\sample\\LOGIN.vb [Design]",
+              "RelativeToolTip": "sample\\LOGIN.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-08T09:49:41.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LIABLE.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\edp\\source\\repos\\sample\\sample\\LIABLE.vb",
+              "RelativeDocumentMoniker": "sample\\LIABLE.vb",
+              "ToolTip": "C:\\Users\\edp\\source\\repos\\sample\\sample\\LIABLE.vb [Design]",
+              "RelativeToolTip": "sample\\LIABLE.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-08T09:49:32.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GENERATE.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\edp\\source\\repos\\sample\\sample\\GENERATE.vb",
+              "RelativeDocumentMoniker": "sample\\GENERATE.vb",
+              "ToolTip": "C:\\Users\\edp\\source\\repos\\sample\\sample\\GENERATE.vb [Design]",
+              "RelativeToolTip": "sample\\GENERATE.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-08T09:49:21.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\edp\\source\\repos\\sample\\sample\\Form1.vb",
+              "RelativeDocumentMoniker": "sample\\Form1.vb",
+              "ToolTip": "C:\\Users\\edp\\source\\repos\\sample\\sample\\Form1.vb [Design]",
+              "RelativeToolTip": "sample\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-08T09:49:09.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DEL.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\edp\\source\\repos\\sample\\sample\\DEL.vb",
+              "RelativeDocumentMoniker": "sample\\DEL.vb",
+              "ToolTip": "C:\\Users\\edp\\source\\repos\\sample\\sample\\DEL.vb [Design]",
+              "RelativeToolTip": "sample\\DEL.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-08T09:48:57.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ADMINHOME.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\edp\\source\\repos\\sample\\sample\\ADMINHOME.vb",
+              "RelativeDocumentMoniker": "sample\\ADMINHOME.vb",
+              "ToolTip": "C:\\Users\\edp\\source\\repos\\sample\\sample\\ADMINHOME.vb [Design]",
+              "RelativeToolTip": "sample\\ADMINHOME.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-08T09:48:43.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ADDUP.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\edp\\source\\repos\\sample\\sample\\ADDUP.vb",
+              "RelativeDocumentMoniker": "sample\\ADDUP.vb",
+              "ToolTip": "C:\\Users\\edp\\source\\repos\\sample\\sample\\ADDUP.vb [Design]",
+              "RelativeToolTip": "sample\\ADDUP.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-08T09:48:24.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ADD.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\edp\\source\\repos\\sample\\sample\\ADD.vb",
+              "RelativeDocumentMoniker": "sample\\ADD.vb",
+              "ToolTip": "C:\\Users\\edp\\source\\repos\\sample\\sample\\ADD.vb [Design]",
+              "RelativeToolTip": "sample\\ADD.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-08T09:47:15.328Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

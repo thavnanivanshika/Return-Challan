@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{981CAF99-80CF-4CF5-BC6F-0EFA3015C74B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>sample.My.MyApplication</StartupObject>
+    <RootNamespace>sample</RootNamespace>
+    <AssemblyName>sample</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>sample.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>sample.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADD.Designer.vb">
+      <DependentUpon>ADD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ADD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADDUP.Designer.vb">
+      <DependentUpon>ADDUP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ADDUP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMINHOME.Designer.vb">
+      <DependentUpon>ADMINHOME.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ADMINHOME.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DEL.Designer.vb">
+      <DependentUpon>DEL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DEL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GENERATE.Designer.vb">
+      <DependentUpon>GENERATE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GENERATE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LIABLE.Designer.vb">
+      <DependentUpon>LIABLE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LIABLE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.vb">
+      <DependentUpon>LOGIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PARTY.Designer.vb">
+      <DependentUpon>PARTY.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PARTY.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PENDING.Designer.vb">
+      <DependentUpon>PENDING.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PENDING.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POST.Designer.vb">
+      <DependentUpon>POST.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POST.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STATUS.Designer.vb">
+      <DependentUpon>STATUS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STATUS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="summary.Designer.vb">
+      <DependentUpon>summary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="summary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SUMMARY1.Designer.vb">
+      <DependentUpon>SUMMARY1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SUMMARY1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UPDATE.Designer.vb">
+      <DependentUpon>UPDATE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UPDATE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ADD.resx">
+      <DependentUpon>ADD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADDUP.resx">
+      <DependentUpon>ADDUP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMINHOME.resx">
+      <DependentUpon>ADMINHOME.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DEL.resx">
+      <DependentUpon>DEL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GENERATE.resx">
+      <DependentUpon>GENERATE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LIABLE.resx">
+      <DependentUpon>LIABLE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PARTY.resx">
+      <DependentUpon>PARTY.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PENDING.resx">
+      <DependentUpon>PENDING.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POST.resx">
+      <DependentUpon>POST.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STATUS.resx">
+      <DependentUpon>STATUS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="summary.resx">
+      <DependentUpon>summary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SUMMARY1.resx">
+      <DependentUpon>SUMMARY1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UPDATE.resx">
+      <DependentUpon>UPDATE.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abstract-white-and-grey-gradient-color-with-oblique-lines-stripes-background-geometric-minimal-pattern-modern-sleek-texture-simple-paper-cut-concept-illustration-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif-1-f559761275.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abstract-dark-grey-metallic-cyber-pattern-on-black-design-modern-technology-futuristic-background-illustration-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8a8a5ce1a0df426c40552f88ffeba481.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InShot_20240614_122708056.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apply-illustration-1-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-exit-icon-isolated-of-flat-style-png-image_6514744.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InShot_20240614_135551453.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InShot_20240614_140934474.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InShot_20240614_1409344741.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Time-management-1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abstract-white-and-grey-gradient-color-with-oblique-lines-stripes-background-geometric-minimal-pattern-modern-sleek-texture-simple-paper-cut-concept-illustration-vector1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1217175730-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InShot_20240614_1227080561.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%291.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InShot_20240614_1409344742.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InShot_20240614_1355514531.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %284%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %285%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %286%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%291.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%292.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %284%291.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HD-wallpaper-aesthetic-beige-in-2021-abstract-design-iphone-themes-iphone-boho-iphone-pattern-abstract-design-cute-beige-thumbnail.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %287%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1217175730-612x6121.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %284%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HD-wallpaper-aesthetic-beige-in-2021-abstract-design-iphone-themes-iphone-boho-iphone-pattern-abstract-design-cute-beige-thumbnail1.jpg" />
+    <None Include="Resources\download %282%293.jfif" />
+    <None Include="Resources\image_processing20210614-15484-1xntfvb %281%29.gif" />
+    <None Include="Resources\download %284%291.jfif" />
+    <None Include="Resources\download1.jfif" />
+    <Content Include="SqlServerTypes\Loader.cs" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
